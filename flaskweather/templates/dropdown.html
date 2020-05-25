@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+{% extends "layout.html" %}
+{% block content %}
+
+
+<body>
+
+<h1> Location Selection </h1>
+
+<center>
+
+<br>
+
+<form action= "{{ url_for('location') }}" method="POST">
+
+     <select name= 'tvalue'>
+      {% for tvalue in tvalues %}
+        {% if selected_tvalue == tvalue %}
+            <option value="{{ tvalue }}" selected='selected'>{{ tvalue }}</option>
+        {% else %}
+             <option value="{{ tvalue }}" >{{ tvalue }}</option>
+        {% endif %}
+      {% endfor %}
+
+      </select>
+      
+     <input type="submit" value="Set as location"/>
+</form>
+
+<br>
+
+<p>{{"Current location is " + text}}</p>
+
+<button> <a href="/result/">Confirm location</a></button>
+
+</body>
+
+</center>
+
+{% endblock content %}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+   {% extends "layout.html" %}
+	{% block content %}
+
+    <center>
+    <body>
+      <h1>{{ "Current weather " + cityOut }}</h1>
+      <p>{{ "It is currently " + tempOut + " " + cityOut }}</p>
+      <p>{{ "Current conditions are " + phraseOut}}</p>
+      <button> <a href="/home">Back to home</a></button> 
+      <button> <a href="/outfit">Get outfit recommendations</a></button> 
+    </body>
+	</center>
+
+	{% endblock content %}
+</html>

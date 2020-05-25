@@ -1,0 +1,16 @@
+<!DOCTYPE>
+    {% extends "layout.html" %}
+    {% block content %}
+
+    <h1>Clothes Guide:</h1>
+    <br>
+    <p>{{ "Conditions are " + phraseOut }} {{" in " + locationOut  }}</p>
+    <p>{{ "Showing outfits for " + styleOut + " styles"}}<p>
+    <h3>Outfit recommendations:</h3> 
+    <br>
+    <p>{{ outfitOut }}</p>
+
+    <button> <a href="/home">Back to home</a></button> 
+
+
+{% endblock content %}

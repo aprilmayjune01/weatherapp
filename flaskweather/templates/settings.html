@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% extends "layout.html" %}
+{% block content %}
+<html>
+
+<body>
+
+	<h1>Recomendations</h1>
+
+	<form action= "{{ url_for('settings') }}" method="POST">
+
+		<input type="radio" name="options" id="Male"  value="Male"> Male </input> <br>
+		<input type="radio" name="options" id="Female"  value="Female"> Female </input> <br>
+		<input type="radio" name="options" id="Both"  value="Both"> Both </input> <br>
+
+		<input type="submit" name="submit_button"><br><br>
+
+		<p>{{ "Suggesting " + chosenStyleOut }} styled outfits</p>	
+
+	</form>	
+
+		<button> <a href="/home">Back to home</a></button>
+</body>
+</html>
+{% endblock content %}
