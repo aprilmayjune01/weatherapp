@@ -204,12 +204,19 @@ def outfit():
 
     outfits = {
         'Sunny': {'male':'T-shirt and Shorts, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Sandals'},
+        'Partly Sunny': {'male':'T-shirt and Shorts, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Sandals'},
+        'Mostly Sunny': {'male':'T-shirt and Shorts, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Sandals'},
         'Cloudy': {'male':'T-shirt and Jeans, Denim Jacket, Sunglasses, Trainers','female':'T-shirt and Skirt, Denim Jacket, Sunglasses, Trainers'},
         'Rainy': {'male':'T-shirt and Jeans, Waterproof shoes, Raincoat, Umbrella','female':'Cardigan and Jeans, Waterproof shoes, Raincoat, Umbrella'},
+        'Partly Rainy': {'male':'T-shirt and Jeans, Waterproof shoes, Raincoat, Umbrella','female':'Cardigan and Jeans, Waterproof shoes, Raincoat, Umbrella'},
+        'Mostly Rainy': {'male':'T-shirt and Jeans, Waterproof shoes, Raincoat, Umbrella','female':'Cardigan and Jeans, Waterproof shoes, Raincoat, Umbrella'},
         'Fog': {'male':'Cardigan and Jeans, Shoes, Raincoat','female':'Cardigan and Jeans, Shoes, Raincoat'},
         'Thunderstorms': {'male':'T-shirt and Jeans, Waterproof shoes, Raincoat, Umbrella','female':'Cardigan and Jeans, Waterproof shoes, Raincoat, Umbrella'}, 
         'Partly Cloudy': {'male':'long-sleeve T-shirt and Jeans, Sweater, Scarf','female':'long-sleeve T-shirt and Jeans, Sweater, Scarf'},
-        'Fair': {'male':'T-shirt, Jeans, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Trainers'},                 
+        'Fair': {'male':'T-shirt, Jeans, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Trainers'},
+        'Clear' : {'male':'T-shirt, Jeans, Sunglasses, Trainers','female':'Summer Dress, Sunglasses, Trainers'},
+        'Mostly Cloudy': {'male':'T-shirt and Jeans, Denim Jacket, Sunglasses, Trainers','female':'T-shirt and Skirt, Denim Jacket, Sunglasses, Trainers'},
+        'Snow': {'male':'Jumper and Jeans, Waterproof shoes, Raincoat, Scarf, Gloves','female':'Jumper and Jeans, Waterproof shoes, Raincoat, Scarf, Gloves'},             
     }
 
     maleOutfit = ""
